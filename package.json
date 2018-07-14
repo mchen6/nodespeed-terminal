@@ -1,0 +1,37 @@
+{
+  "bin": {
+    "nodespeed-termial": "app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/whoGloo/nodespeed-terminal/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-ws": "^2.0.0",
+    "install": "^0.8.8",
+    "jquery": "^3.1.0",
+    "npm": "^4.4.4",
+    "pty.js": "^0.3.1",
+    "serve-favicon": "^2.4.2",
+    "xterm": "^1.1.3",
+    "yargs": "^5.0.0"
+  },
+  "description": "nodeSpeed Terminal - xterm.js and Golden Layout terminal implementation",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "license": "MIT",
+  "main": "app.js",
+  "name": "@apemesh/nodespeed-terminal",
+  "optionalDependencies": {},
+  "readme": "# nodeSpeed Terminal \n\nImplementation of [xterm.js](https://xtermjs.org) as an Express application using Golden Layout for multiple terminals in the same browse tab. \n\nnodeSpeed Terminal is an integrated part of the [nodeSpeed Development](https://github.com/whoGloo/nodespeed-development) project. \n\n## Features\n- All the features from [xterm.js](https://xtermjs.org) \n- [Golden Layout](https://www.golden-layout.com) implementation for multiple terminals in the same session\n- Authentication and sign-in using [Auth0](https://auth0.com) \n\n## Usage\nIt should also be possible to use stand-alone. Because of the integrated authentication, there are some dependencies on environment variables that need to be set before you can start. These will be documented later. \n\n## Development and Contribution\n\nnodeSpeed Terminal is maintained by [whoGloo](https://whogloo.com/) and a few external contributors, but we would love to receive contributions from everyone!\n\nTo contribute either code, documentation or issues please read the [Contributing document](CONTRIBUTING.md) beforehand. The development of nodeSpeed Terminal does not require any special tool. All you need is an editor that supports JavaScript/TypeScript and a browser. You will need Node.js installed locally to get all the features working in the demo.\n\n## License Agreement\n\nIf you contribute code to this project, you are implicitly allowing your code to be distributed under the MIT license. You are also implicitly verifying that all code is your original work.\n\nCopyright (c) 2017, whoGloo, Inc. ([www.whogloo.com](https://www.whogloo.com)) (MIT License)\n\n",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "version": "0.0.1"
+}
